@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 x = [0]
 y = [0]
 
-for i in range(500):
+for i in range(50000):
     theata = math.radians(360*random.random())
-    length = 1 #0 * random.random()
+    length = 2 * random.random()
     x_inc = (length*math.cos(theata))
     y_inc = (length*math.sin(theata))
     x.append(x_inc + x[i])
