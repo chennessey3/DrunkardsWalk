@@ -15,7 +15,9 @@ for i in range(500):
     y.append(y_inc + y[i])    
 #print x,y
 plt.axes()
-plt.scatter(x, y, )
+
+
+plt.scatter(x, y, linestyle='-', c=str(random.random()), marker="o",edgecolors='none')
 
 #def square(list):
  #   return [i ** 2 for i in list]
